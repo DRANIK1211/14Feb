@@ -1,0 +1,58 @@
+.body{
+	margin: 0px;
+	padding: 0px;
+}
+.conteiner{
+	display: block;
+	justify-content: center;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.text{
+	text-align: center;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 3rem;
+}
+img{
+	width:100%;
+	max-width: 200px;
+	display: block;
+	margin:0 auto;
+}
+.buts{
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-evenly;
+}
+.yes{
+	text-align: center;
+	width:60px;
+	height:50px;
+	border-radius:6px;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 40px;
+	transition: all 0.17s;
+	background:green;
+}
+.no{
+	background:red;
+	text-align: center;
+	width:60px;
+	height:50px;
+	border-radius:6px;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 40px;
+	transition: all 0.17s;
+}
+.popup{
+	display: none;
+	width:400px;
+	height:200px;
+	margin:0 auto;
+	background: white;
+	box-shadow:0px 0px 8px black;
+	text-align: center;
+}
+.popup > .text{
+	padding: 40px;
+}
